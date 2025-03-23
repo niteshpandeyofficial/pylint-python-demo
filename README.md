@@ -1,7 +1,9 @@
 **Overview**
+
 This repository contains a Python script that defines a class MyPerson to handle personal details such as name, age, and address. The class also provides methods for retrieving and setting the person's name. Additionally, code quality and security checks are integrated using Pylint and Bandit to ensure clean and secure code practices.
 
 **Requirements**
+
 The following Python libraries are required for this project:
 - pi==0.1.2: A specific version of the pi library.
 - pylint: A tool for checking code quality and ensuring adherence to Python coding standards.
@@ -13,9 +15,10 @@ pip install -r requirements.txt
 ```
 
 **Code Quality and Security Check**
+
 The project includes code quality and security checks using Pylint and Bandit:
 
-- *1. Pylint:* Run the following command to check the code quality and ensure it adheres to Python coding standards:
+- **1. Pylint:** Run the following command to check the code quality and ensure it adheres to Python coding standards:
 ```bash
     pylint current_file.py
 
@@ -39,7 +42,7 @@ The project includes code quality and security checks using Pylint and Bandit:
 ```
 
 
--  *2.Bandit:* Run the following command to check for any security issues in the code:
+-  **2.Bandit:** Run the following command to check for any security issues in the code:
 ```bash
     bandit -r modified_file.py
 
@@ -66,4 +69,5 @@ The project includes code quality and security checks using Pylint and Bandit:
 ```
 
 **Conclusion**
+
 This project demonstrates how to define a simple Python class, use pylint for quality checks, and bandit for security checks. It’s a good starting point for integrating these tools into your development workflow for maintaining clean and secure code.
